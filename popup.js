@@ -16,3 +16,8 @@ document.getElementById('open-options').addEventListener('click', function(e) {
     window.open(chrome.runtime.getURL('options.html'));
   }
 });
+
+chrome.storage.sync.get(['githubUsername'], (result) => {
+    const username = result.githubUsername || 'Not set';
+    document.getElementById('username').textContent = username;
+});
