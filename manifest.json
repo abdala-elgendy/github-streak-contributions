@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "GitHub Streak Notifier",
+    "version": "1.0",
+    "description": "Tracks your GitHub contribution streak and notifies you to keep it going.",
+    "permissions": [
+        "storage",
+        "notifications",
+        "alarms"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "options_page": "options.html"
+
+}
