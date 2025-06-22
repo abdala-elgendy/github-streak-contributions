@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GitHub Streak Notifier Options</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Settings</h1>
+
+  <form id="options-form">
+    <label for="username">GitHub Username:</label>
+    <input type="text" id="username" name="username" required>
+    
+    <label for="token">Personal Access Token:</label>
+    <input type="password" id="token" name="token" required>
+    
+    <button type="submit">Save</button>
+  </form>
+  <div id="status"></div>
+
+  <script src="options.js"></script>
+</body>
+</html> 
