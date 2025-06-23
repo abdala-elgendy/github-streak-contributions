@@ -98,8 +98,8 @@ function calculateStreak(contributionCalendar) {
     }
 
     // Loop backwards day by day to count the streak.
-    for (let i = 0; i < 365 * 2; i++) {
-        // Check up to 2 years back
+    for (let i = 0; i < 365 ; i++) {
+        // Check up to 1 years back
         const dateStr = date.toISOString().slice(0, 10);
 
         if (contributionMap.has(dateStr) && contributionMap.get(dateStr) > 0) {
