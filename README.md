@@ -2,6 +2,8 @@
 
 A Chrome extension that tracks your GitHub contribution streak and notifies you to help keep your streak alive.
 
+You can view all the details here: https://deepwiki.com/abdala-elgendy/github-streak-contributions.
+
 ## Features
 
 - Tracks your current GitHub contribution streak.
